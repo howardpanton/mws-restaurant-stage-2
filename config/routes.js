@@ -43,8 +43,8 @@ module.exports.routes = {
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
   'GET /api/v1/restaurants': { action: 'restaurant/fetch-restaurants' },
-  'GET /api/v1/restaurants/:id': { action: 'restaurant/fetch-restaurant-by-id' },
-  'GET /api/v1/restaurants/cuisine/:cuisine': { action: 'restaurant/fetch-restaurant-by-cuisine' },
+  'GET /api/v1/restaurants/:restaurant_id': { action: 'restaurant/fetch-restaurant-by-id' },
+  'GET /api/v1/cuisine/:cuisine_name': { action: 'restaurant/fetch-restaurant-by-cuisine' },
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
